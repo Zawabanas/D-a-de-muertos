@@ -1,0 +1,97 @@
+
+.custom-background {
+  background-image: url('/img/actionvance-vjUokUWbFOs-unsplash.jpg');
+  background-color: rgba(0, 0, 0, 0.3); /* Background color with alpha (transparency) */
+  background-blend-mode: multiply; /* Blend mode for background image */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.black-background {
+  background-color: #000; /* Establece el color de fondo en negro */
+  /* Puedes ajustar el color o usar rgba para controlar la transparencia si es necesario */
+}
+
+
+h1 {
+  margin-top: 0; /* Elimina el margen superior */
+}
+
+
+.salto{
+  height: 50px
+}
+
+.altura{
+  height: 70px;
+}
+
+.event-cards-container {
+  display: flex; /* Usamos un contenedor flex para alinear las tarjetas horizontalmente */
+  justify-content: space-between; /* Distribuye las tarjetas de manera uniforme en el espacio disponible */
+  max-width: 100%; /* Asegura que las tarjetas no se desborden en pantallas pequeñas */
+}
+
+.event-card {
+  width: 48%; /* Cada tarjeta ocupa el 48% del ancho para dejar un pequeño espacio entre ellas */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.foo-color{
+  background-color:  #2F2252;
+}
+
+.event-card-left {
+  float: left; /* Alinea esta tarjeta a la izquierda */
+}
+
+.event-card-right {
+  float: right; /* Alinea esta tarjeta a la derecha */
+}
+
+.custom-conference{
+  background-image: url('/img/Conferencia.png');
+  background-color: rgba(0, 0, 0, 0.3); /* Background color with alpha (transparency) */
+  background-blend-mode: multiply; /* Blend mode for background image */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Bg-sec{
+  background-image: url('/img/Fondo.png');
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed; /* Esto hace que el navbar sea fijo */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Asegura que esté por encima del contenido */
+}
+
+
+
+@media(max-width: 991px){
+  .sidebar{
+    background-color:  rgba(255, 255, 255, 0.15);
+  }
+}

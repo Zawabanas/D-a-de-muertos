@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  <link rel="stylesheet" href="/CSS/style.css">
+  <title>Festival De Dia De Muertos</title>
+
+
+
+</head>
+
+<body class vh-100 overflow-hidden>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+  
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+  
+        if (targetElement) {
+          window.scrollTo({
+            behavior: 'smooth',
+            top: targetElement.offsetTop
+          });
+        }
+      });
+    });
+  </script>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+      <!--Logo-->
+
+      <a class="navbar-brand" href="#"><img src="/img/icon.png" alt="Bootstrap" width="30" height="24">Festival De Dia
+        De Muertos</a>
+
+      <!--Toggle Btn-->
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--SideBar-->
+      <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <!--SideBar Header-->
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <!--SideBar Body-->
+        <div class="offcanvas-body shadow-none border-0">
+          <ul class="navbar-nav justify-content-center fs-5 flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" href="#section1">Inicio</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Acerca De</a>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Actividades</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#section2">Exposición de tapetes por carrera</a></li>
+                <li><a class="dropdown-item" href="#section3">Exposición de un único altar colaborativo</a></li>
+                <li><a class="dropdown-item" href="#section4">Concurso de catrinas y catrines</a></li>
+                <li><a class="dropdown-item" href="#section5">Concurso de calaveritas</a></li>
+                <li><a class="dropdown-item" href="#section6">Participación de la rondalla del TecNM Campus Delicias</a></li>
+                <li><a class="dropdown-item" href="#section7">Participación del Ballet Folklórico Omáwari</a></li>
+                <li><a class="dropdown-item" href="#section8">Conferencia a cargo de Cristóbal Pérez</a></li>
+                <li><a class="dropdown-item" href="#section9">Exposición de leyendas mexicanas </a></li>
+                <li><a class="dropdown-item" href="/Pages/Cine.html">Cine</a></li>
+                <li><a class="dropdown-item" href="#section11">Venta de alimentos y bebidas</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+<section id="section1">
+  <div
+    class="px-4 py-5  text-center w-100 vh-100 d-flex flex-column justify-content-center align-items-center text-white fs-1 custom-background">
+    <h1 style="font-size: 1.5em;">Festival Del Dia De <br> Muertos</h1>
+  </div>
+</section >
+  <section
+    class="w-100 altura  d-flex flex-column  justify-content-center align-items-center text-white fs-1 border-bottom border-top bg-black">
+    <h1>Actividades</h1>
+  </section>
+
+
+
+  <section class="about section-padding  Bg-sec">
+    <section id="section2">
+    <div class="salto"></div>
+    <div class="container-fluid about-container mb-2">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 offset-lg-1 col-12 mt-4 about-img">
+          <img src="/img/Tapete.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 col-md-12 col-12 ps-lg-2 about-text text-white ">
+          <h2>Exposición De Tapetes</h2>
+          <p>En el corazón de nuestra celebración del Día de los Muertos, te invitamos a explorar una fascinante
+            exhibición de tapetes únicos y coloridos, creados con amor y dedicación por estudiantes de diversas
+            carreras. Cada tapete es una obra maestra de creatividad, y a través de ellos, rendimos homenaje a
+            nuestros seres queridos y honramos la tradición cultural de esta festividad tan especial.
+            <br>
+            Cada carrera aporta su propio estilo y perspectiva a esta exposición, lo que da como resultado una
+            diversidad asombrosa de diseños y técnicas. Desde elaborados diseños florales hasta intrincados patrones
+            geométricos, estos tapetes cuentan historias, transmiten emociones y reflejan la creatividad de nuestros
+            talentosos estudiantes.
+          </p>
+          <a href="#" class="btn btn-primary mt-6 offset-lg-4 my-2">Mas informacion</a>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section id="section3">
+    <div class="salto"></div>
+
+    <div class="container-fluid ">
+      <div class="row">
+
+        <div class="col-lg-6 col-md-12 con-12 ps-lg-6 offset-lg-1 ">
+          <div class="about-text text-white">
+            <h2>Altar De Muertos</h2>
+
+            <p>En el espíritu del Día de los Muertos, te invitamos a un viaje hacia el corazón de una de las tradiciones
+              más entrañables y profundas de nuestra cultura: el altar de muertos. Nuestro altar, creado de manera
+              colaborativa, es un tributo a la memoria de nuestros seres queridos y una celebración de sus vidas.
+
+              Este altar es mucho más que una exhibición; es un rincón de reverencia y amor. Cada elemento que lo
+              compone tiene un significado especial y una razón de ser. Desde las flores de cempasúchil que guían a las
+              almas de regreso, hasta las fotografías y los objetos personales que evocan los recuerdos, este altar es
+              un testimonio de nuestra conexión con aquellos que ya no están físicamente entre nosotros.
+
+              Hemos invitado a participar a miembros de la comunidad, amigos y familiares, para que contribuyan con
+              elementos que representen a sus seres queridos. Esto ha dado lugar a una variedad única de ofrendas, cada
+              una cargada de emociones y significado. Es un recordatorio de que en la diversidad de nuestras historias,
+              encontramos unidad en la celebración de la vida y la muerte.
+
+              Mientras paseas por la exposición, podrás experimentar la riqueza de esta tradición ancestral y sentir el
+              calor de las velas que iluminan el camino de las almas. Es un espacio de reflexión, donde podemos honrar y
+              recordar a aquellos que nos han dejado un legado de amor, sabiduría y valores.
+
+              Te invitamos a unirte a nosotros en este homenaje a la memoria y a celebrar la vida en todas sus etapas.
+              Explora cada rincón de nuestro altar de muertos colaborativo, descubre sus historias y siente la conexión
+              que compartimos con nuestros seres queridos que han partido. En este lugar sagrado, sus espíritus viven
+              eternamente en nuestros corazones.
+            </p>
+            <a href="#" class="btn btn-primary mt-6 offset-lg-5  my-2">Mas informacion</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12 ">
+          <div class="about-img">
+            <img src="/img/Altar.jpg" class="img-fluid mt-4" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="section4">
+    <div class="salto"></div>
+    <div class="container-fluid about-container mb-2">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 offset-lg-1 col-12 mt-4 about-img">
+          <img src="/img/Catrina.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 col-md-12 col-12 ps-lg-2 about-text text-white ">
+          <h2>Concurso de catrinas y catrines</h2>
+          <p>¿Tienes una pasión por el arte, la moda y la creatividad? ¡Entonces, este es tu momento de brillar en nuestro emocionante Concurso de Catrines y Catrinas! El Día de Muertos es una celebración llena de tradición, pero también es una oportunidad para expresar tu estilo personal de una manera única y memorable.
+
+            En este concurso, te invitamos a canalizar tu creatividad y diseñar tu propia interpretación de un catrín o una catrina. ¿Serás un elegante catrín, un personaje histórico reinventado o una catrina contemporánea con un giro moderno? ¡Las posibilidades son infinitas! Lo importante es que reflejes tu esencia y estilo en tu creación.
+            
+            ¿Qué se necesita para destacar en nuestro concurso? Originalidad, atención al detalle y, sobre todo, pasión. Tu catrín o catrina será más que un disfraz; será una obra de arte que cuenta una historia. Aprovecha esta oportunidad para celebrar la vida y la muerte de una manera verdaderamente excepcional.
+            
+            La competencia será feroz, pero la diversión y la camaradería estarán en el aire. ¡Ven solo o forma un equipo y compite por emocionantes premios! No importa si eres un principiante o un experto; lo que importa es tu entusiasmo y tu deseo de mostrar tu talento.
+            
+            No te pierdas la oportunidad de ser parte de un evento cultural único y de mostrar tu creatividad al mundo. Ven y únete a nosotros en el Concurso de Catrines y Catrinas y déjanos sorprendidos con tu interpretación de esta icónica figura mexicana. ¡La catrina te está esperando!
+          </p>
+          <a href="#" class="btn btn-primary mt-6 offset-lg-4 my-2">Mas informacion</a>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section id="section5">
+    <div class="salto"></div>
+
+    <div class="container-fluid ">
+      <div class="row">
+
+        <div class="col-lg-6 col-md-12 con-12 ps-lg-6 offset-lg-1 ">
+          <div class="about-text text-white ">
+            <h2>Concurso de calaveritas</h2>
+
+            <p>Amantes de la poesía y la creatividad <br>
+
+              ¿Tienes un espíritu creativo y un amor por la poesía? ¡Este es tu momento de brillar en nuestro emocionante Concurso de Calaveritas! En el Día de Muertos, las calaveritas literarias son una tradición que combina humor, creatividad y reflexión. Te invitamos a unirte a esta celebración única y a compartir tus versos ingeniosos con el mundo.
+
+En este concurso, podrás demostrar tus habilidades poéticas al crear tu propia calaverita. Las calaveritas son poemas humorísticos que burlan a la muerte y a personajes célebres o conocidos. ¿Qué historia hilarante o conmovedora se te ocurrirá para narrar en verso? La libertad creativa es tuya, y la única regla es que tu calaverita sea original y entretenida.
+
+Tanto si eres un poeta consumado como si es la primera vez que te aventuras en el mundo de la poesía, este concurso es para ti. Deja volar tu imaginación y comparte tus versos con nosotros. La competencia promete ser divertida y llena de sorpresas.
+
+¿Qué hay en juego? Además de la emoción de participar, los ganadores recibirán emocionantes premios y el reconocimiento de su talento literario. También tendrán el honor de ser parte de una tradición que celebra la vida a través de la palabra escrita.
+
+Así que, ¿te atreves a desafiar a la muerte con tus versos? Únete a nosotros en el Concurso de Calaveritas y muestra tu talento poético en esta festividad tan especial. ¡Las risas, la creatividad y la tradición te esperan!
+
+
+            </p>
+            <a href="#" class="btn btn-primary mt-6 offset-lg-5  my-2">Mas informacion</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12 ">
+          <div class="about-img ">
+            <img src="/img/Logo.png" class="img-fluid mt-4" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="salto"></div>
+  </section>
+  
+ 
+    <div>
+      <div class="event-cards-container text-white ">
+        <section id="section6"></section>
+        <div class="event-card ms-4 bg-black">
+          <img src="/img/Rondalla.jpg" alt="Conferencia Opción 2">
+          <h3>Participación de la rondalla del TecNM Campus Delicias"</h3>
+          <p>Fecha: [Fecha]</p>
+          <p>Hora: [Hora]</p>
+          <p>Lugar: [Lugar]</p>
+          <p>Descripción: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor feugiat est, in suscipit lorem volutpat eget.</p>
+          <a href="[Enlace a la Conferencia]">Más información</a>
+        
+        </div>
+        
+        
+        <section id="section7"></section>
+        <div class="event-card me-4 bg-black">
+          <img src="/img/Danza.jpg" alt="Otro Evento">
+          <h3>Participación del Ballet Folklórico Omáwari</h3>
+          <p>Fecha: [Fecha]</p>
+          <p>Hora: [Hora]</p>
+          <p>Lugar: [Lugar]</p>
+          <p>Descripción: Descripción del otro evento.</p>
+          <a href="[Enlace al Otro Evento]">Más información</a>
+        </div>
+      
+      </div>
+      <div class="salto"></div>
+
+      <div class="container">
+        <section id="section8"></section>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center text-white pb-5">
+                    <h2>La Muerte En La Filosofia</h2>
+                    <p>
+                      ¿Alguna vez te has preguntado sobre el enigma de la muerte? ¿Qué significa realmente el acto final de la vida? ¿Tiene la muerte un propósito más allá de lo evidente? En nuestra conferencia "La Muerte en la Filosofía," te invitamos a un viaje profundo y reflexivo para explorar estas preguntas fundamentales desde una perspectiva filosófica.
+
+                      La muerte ha sido tema de contemplación y debate a lo largo de la historia de la humanidad. Filósofos de todas las épocas y culturas han buscado comprender su significado y su relación con la vida misma. ¿Es la muerte el final absoluto, o es el comienzo de algo nuevo? ¿Qué enseñanzas podemos extraer de la fugacidad de la existencia?
+                      
+                      Nuestra conferencia te sumergirá en las reflexiones de pensadores clásicos y contemporáneos, quienes han abordado la muerte desde diversas corrientes filosóficas. Juntos, exploraremos conceptos como la inmortalidad del alma, el existencialismo, la ética de la muerte, y mucho más. Descubrirás cómo la filosofía arroja luz sobre este misterio y cómo estas ideas pueden enriquecer tu comprensión de la vida y la muerte.
+                      
+                      Ven y únete a nosotros en un diálogo enriquecedor y provocador. Esta conferencia te desafiará a cuestionar tus creencias y a contemplar la muerte de una manera completamente nueva. ¿Estás listo para adentrarte en el apasionante mundo de la filosofía de la muerte? Acompáñanos y comencemos juntos este viaje hacia la comprensión de uno de los aspectos más profundos de la existencia humana.
+                      
+                      No pierdas la oportunidad de participar en esta experiencia filosófica única. ¡La muerte nunca ha sido tan intrigante!
+                    </p>
+                    <img src="/img/Conferecia Opcion 2.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <section id="section9"></section>
+      <section id="section8"></section>
+      <div class="row">
+          <div class="col-md-12">
+              <div class="section-header text-center text-white pb-5">
+                  <h2>Leyendas Mexicanas</h2>
+                  <p>
+                    ¿Alguna vez te has adentrado en el mágico mundo de las leyendas mexicanas? En cada rincón de nuestro país, se esconden historias fascinantes que han sido transmitidas a lo largo de generaciones. Desde las misteriosas apariciones de La Llorona hasta los relatos de seres sobrenaturales que acechan en la oscuridad, estas narrativas te llevarán a un viaje inolvidable a través de la rica cultura y el folclore de México.
+
+                    Cada leyenda es una ventana al pasado, una puerta abierta a la imaginación, y una oportunidad para explorar la profunda conexión entre la vida y la muerte. ¿Te atreves a descubrir los secretos detrás de estas historias? ¿Qué hay de verdad en las sombras que se deslizan por las noches? ¿Qué enseñanzas nos ofrecen sobre la vida y la muerte?
+                    
+                    Acompáñanos en un emocionante recorrido por las leyendas mexicanas en nuestro Festival de las Calaveras. Sumérgete en la magia de estas historias, conoce a los personajes legendarios y déjate envolver por el misterio que las rodea. ¿Serás capaz de resistir la tentación de explorar lo desconocido? Ven y descubre un mundo de enigmas y maravillas que te dejará con ganas de conocer más sobre la rica herencia cultural de México.
+                    
+                    Las leyendas mexicanas están esperando a ser desveladas. ¿Estás listo para adentrarte en su fascinante universo?
+                  </p>
+                  <img src="/img/icon.png" class="img-fluid" alt="" style="max-width: 450px; height: auto;">
+
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center text-white pb-5">
+                    <h2>Peliculas</h2>
+                    <p>
+                      El Día de Muertos es una festividad que celebra la vida y la memoria de nuestros seres queridos, y qué mejor manera de honrar esta tradición que a través de la magia del cine. Te invitamos a un emocionante festival de cine especial donde exploraremos historias inspiradoras, conmovedoras y misteriosas que capturan la esencia del Día de Muertos.
+
+                      En esta selección de películas, encontrarás una variedad de géneros, desde animación hasta drama y suspenso. Cada película ofrece una perspectiva única de esta festividad, permitiéndote sumergirte en las tradiciones y las emociones que rodean al Día de Muertos.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center bg-dark">
+                    <div class="card-body text-white">
+                        <img src="/img/EL libro de la vida.jpg" class="img-fluid rounded-circle" alt="">
+                        <h3 class="card-title py-2"></h3>
+                        <p class="card-text">
+
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center bg-dark">
+                    <div class="card-body text-white">
+                        <img src="/img/Hasta el viento tiene miedo.jpg" class="img-fluid rounded-circle" alt="">
+                        <h3 class="card-title py-2"></h3>
+                        <p class="card-text">
+
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center bg-dark">
+                    <div class="card-body text-white">
+                        <img src="/img/Mas negro que la noche.jpg" class="img-fluid rounded-circle" alt="">
+                        <h3 class="card-title py-2"></h3>
+                        <p class="card-text">
+                            
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center bg-dark">
+                    <div class="card-body text-white">
+                        <img src="/img/Macario.jpg" class="img-fluid rounded-circle" alt="">
+                        <h3 class="card-title py-2"></h3>
+                        <p class="card-text">
+                            
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card w-100 h-100" style="background: rgba(255, 255, 255, 0.7);">
+      <section id="section11"></section>
+      <img src="imagen-comida.jpg" class="card-img-top" alt="">
+      <div class="card-body">
+        <h2 class="card-title text-center text-danger">¡Sabor y Tradición en el Día de Muertos!</h2>
+        <p class="card-text text-center fs-5">Te invitamos a un festín que despertará tus sentidos en honor al Día de Muertos.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item text-center text-secondary"><i class="fas fa-calendar-day me-2"></i>Fecha: 1 De Noviembre</li>
+        <li class="list-group-item text-center text-secondary"><i class="fas fa-clock me-2"></i>Hora: De 15:00 a 20:00</li>
+        <li class="list-group-item text-center text-secondary"><i class="fas fa-map-marker-alt me-2"></i>Lugar: Explanada</li>
+        <li class="list-group-item text-center text-secondary"><i class="fas fa-utensils me-2"></i>Menú: Tacos, tamales, pan de muerto, atole y más.</li>
+      </ul>
+      <div class="card-body">
+        <p class="card-text text-center fs-5">Ven y sumérgete en la tradición culinaria mexicana mientras celebramos el Día de Muertos. ¡La comida es el corazón de esta festividad y queremos compartirla contigo!</p>
+        <div class="text-center">
+          <a href="#seccion-rsvp" class="btn btn-danger btn-lg">Confirma tu asistencia</a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+
+  
+
+
+  
+  
+
+    
+
+    
+
+  </section>
+
+
+
+
+  <!--Footer-->
+
+  <footer class="bg-transparente  p-2 text-center foo-color">
+    <div class="foo-color">
+      <div class="container-footer">
+        <div class="row py-4 d-flex align-items-center">
+          <div class="col-md-12 text-center">
+            <a href="https://www.facebook.com/tecnologico.delicias"><i class="fab fa-facebook-square text-white mr-4 fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-footer text-center text-md-left mt-5 text-white">
+
+    </div>
+    <div class="container">
+      <p class="text-white">© Copyright 2023 Festival De Día De Muertos</p>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
